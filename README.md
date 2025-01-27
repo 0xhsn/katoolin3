@@ -4,19 +4,19 @@
 This script automates the installation of [Katoolin3](https://github.com/s-h-3-l-l/katoolin3), a tool to access and manage Kali Linux tools on Ubuntu-based systems.
 
 ## **Usage**
-1. **Download the script**:
+1. **Download the script (or clone the repo)**:
    ```bash
-   wget https://your-script-url/install_katoolin3.sh
+   wget https://github.com/macdoos/katoolin3/blob/main/install.sh
    ```
 
 2. **Make it executable**:
    ```bash
-   chmod +x install_katoolin3.sh
+   chmod +x install.sh
    ```
 
 3. **Run the script**:
    ```bash
-   sudo ./install_katoolin3.sh
+   sudo ./install.sh
    ```
 
 ## **What It Does**
@@ -31,4 +31,10 @@ This script automates the installation of [Katoolin3](https://github.com/s-h-3-l
 sudo katoolin3
 ```
 
-> *happy hacking! :)*
+## **Uninstall**
+To remove Katoolin3:
+```bash
+cd katoolin3
+chmod +x uninstall.sh
+sudo ./uninstall.sh
+```
