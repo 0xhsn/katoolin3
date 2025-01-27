@@ -1,6 +1,4 @@
 # **Katoolin3 Installation Script for Barebone Ubuntu**
-
-## **Description**
 This script automates the installation of [Katoolin3](https://github.com/s-h-3-l-l/katoolin3), a tool to access and manage Kali Linux tools on Ubuntu-based systems.
 
 ## **Usage**
@@ -30,11 +28,4 @@ This script automates the installation of [Katoolin3](https://github.com/s-h-3-l
 ```bash
 sudo katoolin3
 ```
-
-## **Uninstall**
-To remove Katoolin3:
-```bash
-cd katoolin3
-chmod +x uninstall.sh
-sudo ./uninstall.sh
-```
+> *happy hacking! :)*
