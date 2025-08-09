@@ -20,6 +20,7 @@ This script automates the installation of [Katoolin3](https://github.com/s-h-3-l
 ## **What It Does**
 - Updates and upgrades the system.
 - Installs required dependencies (`git`, `python3`, `python3-apt`, etc.).
+- Adds the official Kali Linux repository signing key.
 - Clones the Katoolin3 repository.
 - Runs the installation.
 - Configures Katoolin3 to run globally.
