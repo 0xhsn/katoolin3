@@ -1,0 +1,15 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Lint shell script
+        run: bash -n install.sh
+      - name: Test Kali key installation
+        run: ./tests/kali_key_test.sh

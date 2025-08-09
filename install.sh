@@ -20,6 +20,10 @@ apt update && apt upgrade -y
 echo "[*] Installing dependencies..."
 apt install -y git python3 python3-apt wget apt-transport-https software-properties-common
 
+# Add Kali Linux GPG key
+echo "[*] Adding Kali Linux repository key..."
+wget -q -O - https://archive.kali.org/archive-key.asc | gpg --dearmor | tee /etc/apt/trusted.gpg.d/kali-archive-keyring.gpg >/dev/null
+
 # Clone Katoolin3 Repository
 echo "[*] Cloning the Katoolin3 GitHub repository..."
 if [[ -d "katoolin3" ]]; then
